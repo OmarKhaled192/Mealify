@@ -1,0 +1,79 @@
+:root {
+  --main-color: #fff;
+  --sec-color: #c17e1f;
+  --hover-btn-color: #d78c23;
+  --third-color: #fff;
+  --color-light-grey: #252525;
+}
+
+#chefs,
+#contact {
+  background-color: #202020;
+}
+
+/* start header edit  */
+header nav {
+  background-color: #171717;
+}
+header .content .container .content-left .links a:first-of-type { 
+  color: #000;
+}
+header .content .container .content-left p {
+  font-family: var(--font-default);
+  font-weight: 400;
+  color: #9f9f97;
+}
+
+header .content .container .content-left .links a:last-of-type span.icon {
+  background-color: #171717
+}
+/* end header edit */
+
+/* start chefs edit */
+#chefs .cards .card {
+  background-color: #171717;
+}
+
+#chefs .cards .card p.describe {
+    color: #9f9f9f;
+}
+
+/* end chefs edit */
+
+/* start contact edit  */
+#contact form input[type="submit"] {
+  border: 1px solid #c17e1f;
+}
+
+#contact .all-info .info {
+  background-color: #0d0d0d;
+  color: var(--main-color);
+}
+
+#contact .all-info .info .logo i {
+  color: #000;
+}
+#contact form input[type="submit"] {
+  color: #000;
+}
+/* end contact edit  */
+
+/* start footer edit  */
+footer .parts .part-2 form button[type="submit"] {
+  color: #000;
+}
+/* end footer edit  */
+
+/* start selection mode  */
+::-moz-selection {
+  /* Code for Firefox */
+  color: #000;
+  background: #926321;
+}
+
+::selection {
+  color: #000;
+  background: #926321;
+}
+
+/* end selection mode  */
