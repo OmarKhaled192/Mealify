@@ -105,10 +105,12 @@ header nav .container ul li.checked-link a::after {
 ::-webkit-scrollbar {
   width: 12px;
 }
+
 ::-webkit-scrollbar-track {
   background-color: #e0e0e0;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px inset;
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: #313131;
   border-radius: 10px;
@@ -129,6 +131,7 @@ header nav .container ul li.checked-link a::after {
   color: #fff;
   background: #d85454;
 }
+
 /* end selection mode  */
 
 /* start header */
@@ -773,18 +776,17 @@ footer .parts .part-1 h2 {
 }
 
 footer .parts .part-1 .links {
-  display: inline-block;
-  margin: 0 auto;
-  width: 100%;
-  padding: 20px 0;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .parts .part-1 .links a {
-  padding: 10px 30px;
+  padding: 20px;
   color: #fff;
   font-size: 25px;
   text-align: center;
+  display: inline-block;
 }
 
 /* part 2 */
@@ -895,7 +897,7 @@ footer .parts .part-3 .all-info * {
   text-decoration: none;
 }
 
-footer .parts .part-3 .all-info .info a { 
+footer .parts .part-3 .all-info .info a {
   padding: 2px 4px;
   display: flex;
   justify-content: flex-start;
